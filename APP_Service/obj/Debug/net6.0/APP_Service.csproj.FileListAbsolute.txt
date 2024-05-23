@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\APP_Service.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\APP_Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\APP_Service.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\APP_Service.AssemblyInfo.cs
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\APP_Service.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\bin\Debug\net6.0\APP_Service.deps.json
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\bin\Debug\net6.0\APP_Service.dll
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\bin\Debug\net6.0\APP_Service.pdb
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\bin\Debug\net6.0\APP_DATA.dll
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\bin\Debug\net6.0\APP_DATA.pdb
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\APP_Serv.ACE5C58D.Up2Date
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\APP_Service.dll
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\refint\APP_Service.dll
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\APP_Service.pdb
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_Service\obj\Debug\net6.0\ref\APP_Service.dll

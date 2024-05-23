@@ -1,0 +1,737 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|solutionrelative:app_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|solutionrelative:app_api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|solutionrelative:app_api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_api\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|solutionrelative:app_api\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_api\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|solutionrelative:app_api\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\implementations\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\implementations\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\implementations\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\implementations\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\implementations\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_data\\classdto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|solutionrelative:app_data\\classdto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_data\\classdto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|solutionrelative:app_data\\classdto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|solutionrelative:app_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\implementations\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\implementations\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\interfaces\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\interfaces\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\interfaces\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\interfaces\\ibillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\services\\interfaces\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\services\\interfaces\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\implementations\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\implementations\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\interfaces\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\interfaces\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_service\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C168B10-2FB0-4610-83FC-A8FA1D19E9A3}|APP_Service\\APP_Service.csproj|solutionrelative:app_service\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_data\\classdto\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|solutionrelative:app_data\\classdto\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_data\\classdto\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|solutionrelative:app_data\\classdto\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_data\\classdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|solutionrelative:app_data\\classdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_data\\entites\\cartdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|solutionrelative:app_data\\entites\\cartdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\app_data\\context\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|solutionrelative:app_data\\context\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|c:\\users\\admin\\desktop\\duantotnghiep\\app_data\\entites\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC8428B4-490B-4F08-A4D0-A26C35828537}|APP_DATA\\APP_DATA.csproj|solutionrelative:app_data\\entites\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\app_api\\app_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC7286BE-B0D6-458A-9075-B300E1C63FA8}|APP_API\\APP_API.csproj|solutionrelative:app_api\\app_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Implementations\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\UnitOfWork.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Implementations\\UnitOfWork.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:55:03.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\AddressRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Implementations\\AddressRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\AddressRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Implementations\\AddressRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:52:33.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "APP_API\\Controllers\\AddressController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "APP_API\\Controllers\\AddressController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:27:55.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\BillController.cs",
+              "RelativeDocumentMoniker": "APP_API\\Controllers\\BillController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\BillController.cs",
+              "RelativeToolTip": "APP_API\\Controllers\\BillController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:37:46.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "APP_API\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "APP_API\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:52:57.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "APP_API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "APP_API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:53:15.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "APP_API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "APP_API\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:53:29.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\AddressService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Implementations\\AddressService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\AddressService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Implementations\\AddressService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:03:59.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Implementations\\ProductService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:47:14.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BillService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\BillService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Implementations\\BillService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\BillService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Implementations\\BillService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:33:54.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\CustomerService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Implementations\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\CustomerService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Implementations\\CustomerService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwCsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:46:31.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Implementations\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Implementations\\EmployeeService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwCsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:46:51.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:42:58.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:44:25.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "APP_DATA\\ClassDTO\\EmployeeDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\EmployeeDto.cs",
+              "RelativeToolTip": "APP_DATA\\ClassDTO\\EmployeeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:17:51.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "APP_DATA\\ClassDTO\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\CustomerDto.cs",
+              "RelativeToolTip": "APP_DATA\\ClassDTO\\CustomerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:17:23.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IAddressService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Interfaces\\IAddressService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IAddressService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Interfaces\\IAddressService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:01:31.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Program.cs",
+              "RelativeDocumentMoniker": "APP_API\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\Program.cs",
+              "RelativeToolTip": "APP_API\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwB0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:06:39.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:54:33.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:43:36.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Implementations\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Implementations\\ProductRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:42:01.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:41:28.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IBillService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IBillService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Interfaces\\IBillService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IBillService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Interfaces\\IBillService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:33:13.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IGenericService.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Services\\Interfaces\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Services\\Interfaces\\IGenericService.cs",
+              "RelativeToolTip": "APP_Service\\Services\\Interfaces\\IGenericService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:59:10.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:40:07.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\BillRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Implementations\\BillRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\BillRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Implementations\\BillRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:29:58.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Implementations\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Implementations\\GenericRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:31:50.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IAddressRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Interfaces\\IAddressRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IAddressRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Interfaces\\IAddressRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:14:17.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IBillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IBillRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Interfaces\\IBillRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IBillRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Interfaces\\IBillRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:27:16.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:26:58.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:26:16.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:26:02.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BillDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\BillDto.cs",
+              "RelativeDocumentMoniker": "APP_DATA\\ClassDTO\\BillDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\BillDto.cs",
+              "RelativeToolTip": "APP_DATA\\ClassDTO\\BillDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:13:05.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "APP_Service\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T07:19:55.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\AddressDto.cs",
+              "RelativeDocumentMoniker": "APP_DATA\\ClassDTO\\AddressDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\AddressDto.cs",
+              "RelativeToolTip": "APP_DATA\\ClassDTO\\AddressDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:28:44.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\ProductDto.cs",
+              "RelativeDocumentMoniker": "APP_DATA\\ClassDTO\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\ClassDTO\\ProductDto.cs",
+              "RelativeToolTip": "APP_DATA\\ClassDTO\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:21:00.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CartDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\Entites\\CartDetails.cs",
+              "RelativeDocumentMoniker": "APP_DATA\\Entites\\CartDetails.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\Entites\\CartDetails.cs",
+              "RelativeToolTip": "APP_DATA\\Entites\\CartDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:15:19.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Helper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "APP_Service\\Helper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_Service\\Helper\\MappingProfile.cs",
+              "RelativeToolTip": "APP_Service\\Helper\\MappingProfile.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:20:11.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\Context\\MyContext.cs",
+              "RelativeDocumentMoniker": "APP_DATA\\Context\\MyContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\Context\\MyContext.cs",
+              "RelativeToolTip": "APP_DATA\\Context\\MyContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T07:10:39.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\Entites\\Address.cs",
+              "RelativeDocumentMoniker": "APP_DATA\\Entites\\Address.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_DATA\\Entites\\Address.cs",
+              "RelativeToolTip": "APP_DATA\\Entites\\Address.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T08:19:54.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "APP_API.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\APP_API.csproj",
+              "RelativeDocumentMoniker": "APP_API\\APP_API.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DuAnTotNghiep\\APP_API\\APP_API.csproj",
+              "RelativeToolTip": "APP_API\\APP_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T07:18:38.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
