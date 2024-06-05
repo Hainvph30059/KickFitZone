@@ -35,20 +35,18 @@ namespace APP_Service.Services.Implementations
 			throw new NotImplementedException();
 		}
 
-		public async Task<IEnumerable<BillDto>> GetAllAsync(int pageNumber, int pageSize)
+		public async Task<IEnumerable<BillDto>> GetAllAsync(int? pageNumber, int? pageSize)
 		{
-			try
-			{
-				int skipAmount = (pageNumber - 1) * pageSize;
-				var lst = await _unitOfWork.Bill.GetAllAsync();
-				var addressDto = _mapper.Map<IEnumerable<BillDto>>(lst);
-				var result = addressDto.Skip(skipAmount).Take(pageSize);
-				return result;
-			}
-			catch (Exception ex)
-			{
-				throw new Exception("Error: " + ex);
-			}
+			    var lst = await _unitOfWork.Bill.GetAllAsync();
+				var billDto = _mapper.Map<IEnumerable<BillDto>>(lst);
+
+				if (pageNumber.HasValue && pageSize.HasValue)
+				{
+					int skipAmount = (pageNumber.Value - 1) * pageSize.Value;
+					billDto = billDto.Skip(skipAmount).Take(pageSize.Value);
+				}
+
+				return billDto;
 		}
 
 		public BillDto GetByID(Guid ID)

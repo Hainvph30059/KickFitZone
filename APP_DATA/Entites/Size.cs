@@ -14,6 +14,6 @@ namespace APP_DATA.Entity
 		public string Status { get; set; }
 		public DateTime DateCreated { get; set; }
 
-		public ICollection<ShoesDetails_Size> ShoesDetails_Sizes { get; set; }
+		public ICollection<ShoesDetails> ShoesDetails { get; set; }
 	}
 }

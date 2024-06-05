@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace APP_Service.Repositories.Implementations
 {
-	internal class ProductRepository : GenericRepository<Product>, IProductRepository
+	public class ProductRepository : GenericRepository<Product>, IProductRepository
 	{
 		public ProductRepository(MyContext context) : base(context)
 		{

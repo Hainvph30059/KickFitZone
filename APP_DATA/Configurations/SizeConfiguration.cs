@@ -18,6 +18,7 @@ namespace APP_DATA.EntityConfiguration
 			builder.Property(s => s.Name).IsRequired().HasMaxLength(50);
 			builder.Property(s => s.Status).IsRequired().HasMaxLength(20);
 			builder.Property(s => s.DateCreated).IsRequired();
+			
 		}
 	}
 }

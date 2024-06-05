@@ -15,11 +15,6 @@ namespace APP_DATA.EntityConfiguration
 		{
 			builder.HasKey(cd => cd.ID);
 
-
-			builder.HasOne(cd => cd.ShoesDetails_Size)
-				   .WithMany(sd => sd.CartDetails)
-				   .HasForeignKey(cd => cd.ShoesDetails_SizeID);
-
 			builder.HasOne(cd => cd.Cart)
 				   .WithMany(ca => ca.CartDetails)
 				   .HasForeignKey(cd => cd.CartID);

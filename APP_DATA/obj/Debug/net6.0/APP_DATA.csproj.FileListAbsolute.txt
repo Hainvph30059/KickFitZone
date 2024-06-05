@@ -26,3 +26,4 @@ C:\Users\Admin\Desktop\DuAnTotNghiep\APP_DATA\obj\Debug\net6.0\refint\APP_DATA.d
 C:\Users\Admin\Desktop\DuAnTotNghiep\APP_DATA\obj\Debug\net6.0\APP_DATA.pdb
 C:\Users\Admin\Desktop\DuAnTotNghiep\APP_DATA\obj\Debug\net6.0\APP_DATA.genruntimeconfig.cache
 C:\Users\Admin\Desktop\DuAnTotNghiep\APP_DATA\obj\Debug\net6.0\ref\APP_DATA.dll
+C:\Users\Admin\Desktop\DuAnTotNghiep\APP_DATA\obj\Debug\net6.0\APP_DATA.sourcelink.json

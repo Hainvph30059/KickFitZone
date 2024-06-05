@@ -10,7 +10,7 @@ namespace APP_Service.Services.Interfaces
     public interface IGenericService<T> where T : class
     {
 		T GetByID(Guid ID);
-		Task<IEnumerable<T>> GetAllAsync(int pageNumber, int pageSize);
+		Task<IEnumerable<T>> GetAllAsync(int? pageNumber, int? pageSize);
 		IEnumerable<T> Find(string keyWord);
 		bool Create(T entity);
 		bool Update(T entity);

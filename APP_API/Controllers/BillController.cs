@@ -18,7 +18,7 @@ namespace APP_API.Controllers
 		[HttpGet]
 		[ProducesResponseType(typeof(IEnumerable<BillDto>), StatusCodes.Status200OK)]
 		[ProducesResponseType(StatusCodes.Status404NotFound)]
-		public async Task<IActionResult> GetAll([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 5)
+		public async Task<IActionResult> GetAll([FromQuery] int? pageNumber = 1, [FromQuery] int? pageSize = 5)
 		{
 			if (!ModelState.IsValid)
 			{

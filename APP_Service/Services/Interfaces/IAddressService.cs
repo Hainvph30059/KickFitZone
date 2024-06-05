@@ -10,5 +10,6 @@ namespace APP_Service.Services.Interfaces
 {
     public interface IAddressService : IGenericService<AddressDto>
     {
+        
     }
 }

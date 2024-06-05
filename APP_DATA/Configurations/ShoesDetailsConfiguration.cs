@@ -16,9 +16,12 @@ namespace APP_DATA.EntityConfiguration
 			builder.HasKey(sd => sd.ShoesDetailsID);
 			builder.Property(sd => sd.ShoesDetailsCode).IsRequired().HasMaxLength(50);
 			builder.Property(sd => sd.Price).IsRequired();
-			builder.Property(sd => sd.ImportPrice).IsRequired();
 			builder.Property(sd => sd.Description).HasMaxLength(500);
 			builder.Property(sd => sd.Status).IsRequired().HasMaxLength(20);
+
+			builder.HasOne(s => s.Size)
+				   .WithMany(sd => sd.ShoesDetails)
+				   .HasForeignKey(sd => sd.SizeID);
 
 			builder.HasOne(sd => sd.Color)
 				   .WithMany(c => c.ShoesDetails)
@@ -43,6 +46,10 @@ namespace APP_DATA.EntityConfiguration
 			builder.HasOne(sd => sd.Image)
 				   .WithMany(i => i.ShoesDetails)
 				   .HasForeignKey(sd => sd.ImageID);
+
+			builder.HasMany(shoeDetail => shoeDetail.CartDetails)
+				   .WithOne(cartDetails => cartDetails.ShoesDetails)
+				   .HasForeignKey(cartDetails => cartDetails.ShoeDetailsID);
 		}
 	}
 }

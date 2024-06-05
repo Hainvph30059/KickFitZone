@@ -84,10 +84,10 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            AddressID = new Guid("046f153b-d58a-4cef-b6f5-e17d0a83de99"),
+                            AddressID = new Guid("9b4e4820-7776-49d9-b157-d90b6daaf474"),
                             Commune = "Commune 1",
-                            CustomerID = new Guid("e57b1ee4-a901-410d-bdbe-2d6d146579f4"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2777),
+                            CustomerID = new Guid("c9231368-2924-4024-a211-e0264e49485f"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2422),
                             District = "District 1",
                             DistrictCode = "D1",
                             IsDefaultAddress = true,
@@ -99,10 +99,10 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            AddressID = new Guid("7a10de1b-7ced-40a1-b350-22b578699bbd"),
+                            AddressID = new Guid("f465847b-e4ed-4e4e-856c-370bc77b4425"),
                             Commune = "Commune 2",
-                            CustomerID = new Guid("beb23968-4803-439f-a66c-16af00ca3a06"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2794),
+                            CustomerID = new Guid("bef74dac-9337-444e-b4fc-ee76f35482ee"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2430),
                             District = "District 2",
                             DistrictCode = "D2",
                             IsDefaultAddress = false,
@@ -114,10 +114,10 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            AddressID = new Guid("8a30df15-c1f2-42d7-bf87-21161879ede7"),
+                            AddressID = new Guid("387d3dce-508c-4afb-b594-ddfd7e05c716"),
                             Commune = "Commune 3",
-                            CustomerID = new Guid("7e95ffd5-df8a-4eed-8998-6c22a91caa48"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2797),
+                            CustomerID = new Guid("d0b88215-17b1-4e2a-9a8e-b44fea3c9ba2"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2432),
                             District = "District 3",
                             DistrictCode = "D3",
                             IsDefaultAddress = true,
@@ -129,10 +129,10 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            AddressID = new Guid("f2bf807d-8f06-4c67-8ee5-9e5ce95a13d3"),
+                            AddressID = new Guid("88b30c80-31e7-43bd-afdc-7d4041e3ddbe"),
                             Commune = "Commune 4",
-                            CustomerID = new Guid("2db21e69-cc89-45c5-8de5-2893ab10277f"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2800),
+                            CustomerID = new Guid("91e73ad1-fcd9-4f66-aabe-cec2a794a217"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2434),
                             District = "District 4",
                             DistrictCode = "D4",
                             IsDefaultAddress = false,
@@ -144,10 +144,10 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            AddressID = new Guid("2075e02d-9c0f-4d7c-9f66-636525b82cd1"),
+                            AddressID = new Guid("3218db13-6288-4ad5-a044-4f0619b080ed"),
                             Commune = "Commune 5",
-                            CustomerID = new Guid("e0285d6e-78eb-4275-a67a-22515dcec565"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2802),
+                            CustomerID = new Guid("f5a02a83-4204-4a63-b5d0-a4c6f917037c"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2437),
                             District = "District 5",
                             DistrictCode = "D5",
                             IsDefaultAddress = true,
@@ -243,113 +243,113 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            ID = new Guid("4b267549-53f5-4143-85dd-4508bbc92cf0"),
+                            ID = new Guid("47aca5a4-c97b-4cff-99c3-713290d6dd1f"),
                             BillCode = "B1",
-                            ConfirmationDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3022),
-                            CustomerID = new Guid("e57b1ee4-a901-410d-bdbe-2d6d146579f4"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3015),
-                            DeliveryDate = new DateTime(2024, 5, 25, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3021),
-                            EmployeeID = new Guid("b1f6048c-8d34-4aaf-a30a-01afb06c1046"),
+                            ConfirmationDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2651),
+                            CustomerID = new Guid("c9231368-2924-4024-a211-e0264e49485f"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2642),
+                            DeliveryDate = new DateTime(2024, 6, 7, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2649),
+                            EmployeeID = new Guid("4a20b2c6-bcc3-4895-aaa6-e6b8722eef2a"),
                             IsPaid = true,
                             Note = "Note 1",
-                            PaymentDay = new DateTime(2024, 5, 23, 10, 9, 20, 889, DateTimeKind.Utc).AddTicks(3024),
-                            PurchaseMethodID = new Guid("e9aeca0c-9123-4fd5-9f40-84916947dd57"),
+                            PaymentDay = new DateTime(2024, 6, 5, 4, 12, 33, 23, DateTimeKind.Utc).AddTicks(2652),
+                            PurchaseMethodID = new Guid("63ffbd99-6114-4456-8d09-30e8e7da5da9"),
                             ShippingCosts = 50m,
                             Status = "Delivered",
-                            SuccessDate = new DateTime(2024, 5, 24, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3016),
+                            SuccessDate = new DateTime(2024, 6, 6, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2643),
                             TotalPrice = 1000m,
                             TotalPriceAfterDiscount = 950m,
                             TransactionType = "Credit",
-                            UpdateDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3023),
-                            VoucherID = new Guid("6e012097-4f27-41cd-8778-8c1d835ca77a")
+                            UpdateDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2651),
+                            VoucherID = new Guid("760f291c-18fc-43e7-8003-76017c0b7443")
                         },
                         new
                         {
-                            ID = new Guid("28364be2-a65b-4fc1-aad7-8dccc9bbd448"),
+                            ID = new Guid("2c25177d-8288-47e3-b348-a729eb8b1f11"),
                             BillCode = "B2",
-                            ConfirmationDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3035),
-                            CustomerID = new Guid("beb23968-4803-439f-a66c-16af00ca3a06"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3033),
-                            DeliveryDate = new DateTime(2024, 5, 25, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3034),
-                            EmployeeID = new Guid("e54f69ea-4917-479d-8054-c3bd13457b4c"),
+                            ConfirmationDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2659),
+                            CustomerID = new Guid("bef74dac-9337-444e-b4fc-ee76f35482ee"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2657),
+                            DeliveryDate = new DateTime(2024, 6, 7, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2658),
+                            EmployeeID = new Guid("2927eaba-ba0c-45b2-bc94-b9dbee3ffc3d"),
                             IsPaid = true,
                             Note = "Note 2",
-                            PaymentDay = new DateTime(2024, 5, 23, 10, 9, 20, 889, DateTimeKind.Utc).AddTicks(3036),
-                            PurchaseMethodID = new Guid("9ebd0022-01d3-4c80-9563-ecb38251f56d"),
+                            PaymentDay = new DateTime(2024, 6, 5, 4, 12, 33, 23, DateTimeKind.Utc).AddTicks(2661),
+                            PurchaseMethodID = new Guid("d73a6430-cabd-467e-9823-9a5775d8cb90"),
                             ShippingCosts = 100m,
                             Status = "Delivered",
-                            SuccessDate = new DateTime(2024, 5, 24, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3034),
+                            SuccessDate = new DateTime(2024, 6, 6, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2657),
                             TotalPrice = 2000m,
                             TotalPriceAfterDiscount = 1900m,
                             TransactionType = "Credit",
-                            UpdateDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3036),
-                            VoucherID = new Guid("3a72329e-37ae-43aa-ab33-223b82131d4f")
+                            UpdateDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2661),
+                            VoucherID = new Guid("a7fc6d1a-73a8-4ca7-8aef-700a7ae580c2")
                         },
                         new
                         {
-                            ID = new Guid("a7f28647-512e-4273-a96a-9722fb161072"),
+                            ID = new Guid("a4fb7a9e-0d59-4f93-a464-a9e0ca867c7c"),
                             BillCode = "B3",
-                            ConfirmationDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3041),
-                            CustomerID = new Guid("7e95ffd5-df8a-4eed-8998-6c22a91caa48"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3040),
-                            DeliveryDate = new DateTime(2024, 5, 25, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3040),
-                            EmployeeID = new Guid("cdb4cd64-5203-47f5-b435-da340b5d8988"),
+                            ConfirmationDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2736),
+                            CustomerID = new Guid("d0b88215-17b1-4e2a-9a8e-b44fea3c9ba2"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2734),
+                            DeliveryDate = new DateTime(2024, 6, 7, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2735),
+                            EmployeeID = new Guid("ff0f6820-f98d-49e4-81b3-47dc433f4719"),
                             IsPaid = true,
                             Note = "Note 3",
-                            PaymentDay = new DateTime(2024, 5, 23, 10, 9, 20, 889, DateTimeKind.Utc).AddTicks(3042),
-                            PurchaseMethodID = new Guid("b3ea1118-ae19-4c05-8c4f-e3841f35691c"),
+                            PaymentDay = new DateTime(2024, 6, 5, 4, 12, 33, 23, DateTimeKind.Utc).AddTicks(2738),
+                            PurchaseMethodID = new Guid("4c287058-da8f-4b22-ab4f-ef9de9a65ba3"),
                             ShippingCosts = 150m,
                             Status = "Delivered",
-                            SuccessDate = new DateTime(2024, 5, 24, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3040),
+                            SuccessDate = new DateTime(2024, 6, 6, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2735),
                             TotalPrice = 3000m,
                             TotalPriceAfterDiscount = 2850m,
                             TransactionType = "Credit",
-                            UpdateDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3042),
-                            VoucherID = new Guid("2fa517bd-0f4d-4315-8a60-d3a3f50f7c67")
+                            UpdateDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2737),
+                            VoucherID = new Guid("ede269c5-9ec7-4fd8-b7ea-20ddd58a9c11")
                         },
                         new
                         {
-                            ID = new Guid("4df74ef5-e366-4e35-8ddf-d4886e4518d5"),
+                            ID = new Guid("07a4ba96-a8f1-4f6d-a90a-67121811a352"),
                             BillCode = "B4",
-                            ConfirmationDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3046),
-                            CustomerID = new Guid("2db21e69-cc89-45c5-8de5-2893ab10277f"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3045),
-                            DeliveryDate = new DateTime(2024, 5, 25, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3045),
-                            EmployeeID = new Guid("b46cea3b-a766-4980-a82f-3c8dde26a234"),
+                            ConfirmationDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2743),
+                            CustomerID = new Guid("91e73ad1-fcd9-4f66-aabe-cec2a794a217"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2741),
+                            DeliveryDate = new DateTime(2024, 6, 7, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2742),
+                            EmployeeID = new Guid("b5d6a8d3-cd61-474b-ac2b-4d3ebce0c3f6"),
                             IsPaid = true,
                             Note = "Note 4",
-                            PaymentDay = new DateTime(2024, 5, 23, 10, 9, 20, 889, DateTimeKind.Utc).AddTicks(3047),
-                            PurchaseMethodID = new Guid("4ec57afa-f317-4aae-939f-82092b7f47b5"),
+                            PaymentDay = new DateTime(2024, 6, 5, 4, 12, 33, 23, DateTimeKind.Utc).AddTicks(2744),
+                            PurchaseMethodID = new Guid("ea6b6cf4-f70f-43eb-b16c-ee8af629a4e2"),
                             ShippingCosts = 200m,
                             Status = "Delivered",
-                            SuccessDate = new DateTime(2024, 5, 24, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3045),
+                            SuccessDate = new DateTime(2024, 6, 6, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2741),
                             TotalPrice = 4000m,
                             TotalPriceAfterDiscount = 3800m,
                             TransactionType = "Credit",
-                            UpdateDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3046),
-                            VoucherID = new Guid("c9e42695-d9ab-466c-a23b-6ec49aa3f4fb")
+                            UpdateDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2743),
+                            VoucherID = new Guid("0beb4994-ad46-4538-aeda-84e458728137")
                         },
                         new
                         {
-                            ID = new Guid("9b901a47-24a8-4a33-85ba-53553802fe79"),
+                            ID = new Guid("d8a7681a-1420-49af-b2e7-6d3f69a2016d"),
                             BillCode = "B5",
-                            ConfirmationDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3051),
-                            CustomerID = new Guid("e0285d6e-78eb-4275-a67a-22515dcec565"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3050),
-                            DeliveryDate = new DateTime(2024, 5, 25, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3050),
-                            EmployeeID = new Guid("b0880b58-0326-4410-9be3-b3430a9b0b4a"),
+                            ConfirmationDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2750),
+                            CustomerID = new Guid("f5a02a83-4204-4a63-b5d0-a4c6f917037c"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2749),
+                            DeliveryDate = new DateTime(2024, 6, 7, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2749),
+                            EmployeeID = new Guid("242f004a-6325-47a5-a199-c3ed7cfa1876"),
                             IsPaid = true,
                             Note = "Note 5",
-                            PaymentDay = new DateTime(2024, 5, 23, 10, 9, 20, 889, DateTimeKind.Utc).AddTicks(3052),
-                            PurchaseMethodID = new Guid("10451571-ce23-44aa-905a-e85f09dca9b9"),
+                            PaymentDay = new DateTime(2024, 6, 5, 4, 12, 33, 23, DateTimeKind.Utc).AddTicks(2751),
+                            PurchaseMethodID = new Guid("c535c31c-1667-4150-9101-d6ca1a7de1b2"),
                             ShippingCosts = 250m,
                             Status = "Delivered",
-                            SuccessDate = new DateTime(2024, 5, 24, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3050),
+                            SuccessDate = new DateTime(2024, 6, 6, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2749),
                             TotalPrice = 5000m,
                             TotalPriceAfterDiscount = 4750m,
                             TransactionType = "Credit",
-                            UpdateDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3051),
-                            VoucherID = new Guid("c7feac47-13ae-47bb-a192-b04d147766a8")
+                            UpdateDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2751),
+                            VoucherID = new Guid("7c3cd40e-aca2-4606-b986-634c317ac3c2")
                         });
                 });
 
@@ -384,47 +384,47 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            ID = new Guid("6d70bb19-4161-43fc-9c37-cff08164dffc"),
-                            BillID = new Guid("4b267549-53f5-4143-85dd-4508bbc92cf0"),
+                            ID = new Guid("7b114f79-adce-4d33-a5e3-d356afd76735"),
+                            BillID = new Guid("47aca5a4-c97b-4cff-99c3-713290d6dd1f"),
                             Price = 1000m,
                             Quantity = 1,
-                            ShoesDetails_SizeID = new Guid("58eae792-ff6a-4d0c-bab0-e316c21c12a3"),
+                            ShoesDetails_SizeID = new Guid("5dec446d-6b9b-4a7e-894b-1191fde5ecf5"),
                             Status = "Delivered"
                         },
                         new
                         {
-                            ID = new Guid("025c59e9-e21a-47e4-828f-ee88e66431d9"),
-                            BillID = new Guid("28364be2-a65b-4fc1-aad7-8dccc9bbd448"),
+                            ID = new Guid("2942f63e-dd04-434c-9446-2e03d8f0c82f"),
+                            BillID = new Guid("2c25177d-8288-47e3-b348-a729eb8b1f11"),
                             Price = 2000m,
                             Quantity = 2,
-                            ShoesDetails_SizeID = new Guid("081bbc13-e243-4881-bd89-cb630bd7d75c"),
+                            ShoesDetails_SizeID = new Guid("4da57313-abe4-41cb-ab44-d56293fc16ce"),
                             Status = "Delivered"
                         },
                         new
                         {
-                            ID = new Guid("790f4e27-344a-4c11-a3f9-3cd89d9b05b0"),
-                            BillID = new Guid("a7f28647-512e-4273-a96a-9722fb161072"),
+                            ID = new Guid("bfc5c581-8825-4ca1-912e-abf06146e990"),
+                            BillID = new Guid("a4fb7a9e-0d59-4f93-a464-a9e0ca867c7c"),
                             Price = 3000m,
                             Quantity = 3,
-                            ShoesDetails_SizeID = new Guid("e0b5fcbd-ffca-4fa0-8cfc-da2d14b60a94"),
+                            ShoesDetails_SizeID = new Guid("1d7bd185-36db-4081-a1ef-7bd592ad05be"),
                             Status = "Delivered"
                         },
                         new
                         {
-                            ID = new Guid("26f127f5-046b-4dcf-a810-04e8531f9b15"),
-                            BillID = new Guid("4df74ef5-e366-4e35-8ddf-d4886e4518d5"),
+                            ID = new Guid("c5f25db5-09d2-4e21-8f51-1193d134cc91"),
+                            BillID = new Guid("07a4ba96-a8f1-4f6d-a90a-67121811a352"),
                             Price = 4000m,
                             Quantity = 4,
-                            ShoesDetails_SizeID = new Guid("2208900f-a6ae-457a-8cc2-97e4aaa686e2"),
+                            ShoesDetails_SizeID = new Guid("0eddb26e-242a-4df0-89b9-b9f6195f6179"),
                             Status = "Delivered"
                         },
                         new
                         {
-                            ID = new Guid("4c6b84c8-1c6d-4a9b-864e-cbb2436aa963"),
-                            BillID = new Guid("9b901a47-24a8-4a33-85ba-53553802fe79"),
+                            ID = new Guid("4a0e2b02-5283-4746-a006-ae17c4312a1c"),
+                            BillID = new Guid("d8a7681a-1420-49af-b2e7-6d3f69a2016d"),
                             Price = 5000m,
                             Quantity = 5,
-                            ShoesDetails_SizeID = new Guid("887f2cbf-b35c-4ea8-9ac2-91871ac785ea"),
+                            ShoesDetails_SizeID = new Guid("1a5c94b1-2935-4920-baed-493a8bf550c5"),
                             Status = "Delivered"
                         });
                 });
@@ -458,121 +458,121 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            BillStatusHistoryID = new Guid("84ffa2f4-26e6-4e59-95e4-da0ea98495f3"),
-                            BillID = new Guid("4b267549-53f5-4143-85dd-4508bbc92cf0"),
-                            ChangeDate = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3106),
+                            BillStatusHistoryID = new Guid("f02dfc74-99b5-447f-b208-b1f8099d0d58"),
+                            BillID = new Guid("47aca5a4-c97b-4cff-99c3-713290d6dd1f"),
+                            ChangeDate = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2815),
                             Note = "Order placed",
                             Status = "Ordered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("aa0067f9-9481-4ec3-935c-16323f8bcaaf"),
-                            BillID = new Guid("4b267549-53f5-4143-85dd-4508bbc92cf0"),
-                            ChangeDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3113),
+                            BillStatusHistoryID = new Guid("4078401b-828d-4ee3-98f1-7d2926acd964"),
+                            BillID = new Guid("47aca5a4-c97b-4cff-99c3-713290d6dd1f"),
+                            ChangeDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2818),
                             Note = "Order shipped",
                             Status = "Shipped"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("26b85f1e-a345-4fc4-bb2c-7aa8d9a21ef6"),
-                            BillID = new Guid("4b267549-53f5-4143-85dd-4508bbc92cf0"),
-                            ChangeDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3115),
+                            BillStatusHistoryID = new Guid("2da005b3-14ac-4dd1-86ad-94f171d08ab5"),
+                            BillID = new Guid("47aca5a4-c97b-4cff-99c3-713290d6dd1f"),
+                            ChangeDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2821),
                             Note = "Order delivered",
                             Status = "Delivered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("6d87a836-866e-43ee-be0a-b71734be8498"),
-                            BillID = new Guid("28364be2-a65b-4fc1-aad7-8dccc9bbd448"),
-                            ChangeDate = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3117),
+                            BillStatusHistoryID = new Guid("22822d7b-4aa6-4597-a006-821792dcecc9"),
+                            BillID = new Guid("2c25177d-8288-47e3-b348-a729eb8b1f11"),
+                            ChangeDate = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2823),
                             Note = "Order placed",
                             Status = "Ordered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("575644d6-8a8b-421e-bbd1-b7852ce21874"),
-                            BillID = new Guid("28364be2-a65b-4fc1-aad7-8dccc9bbd448"),
-                            ChangeDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3118),
+                            BillStatusHistoryID = new Guid("7d95087a-f636-4c7b-928a-22dbd323ea2e"),
+                            BillID = new Guid("2c25177d-8288-47e3-b348-a729eb8b1f11"),
+                            ChangeDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2825),
                             Note = "Order shipped",
                             Status = "Shipped"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("2f0b2f59-6b35-429e-ac53-dc08b823d71b"),
-                            BillID = new Guid("28364be2-a65b-4fc1-aad7-8dccc9bbd448"),
-                            ChangeDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3121),
+                            BillStatusHistoryID = new Guid("6cf45ef2-840c-4065-9657-5c3c067f4ae4"),
+                            BillID = new Guid("2c25177d-8288-47e3-b348-a729eb8b1f11"),
+                            ChangeDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2829),
                             Note = "Order delivered",
                             Status = "Delivered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("f2a02c93-abdc-4025-809d-70cdac0d5a29"),
-                            BillID = new Guid("a7f28647-512e-4273-a96a-9722fb161072"),
-                            ChangeDate = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3122),
+                            BillStatusHistoryID = new Guid("ace05400-f24e-49a0-92fd-a1a5fdc35b71"),
+                            BillID = new Guid("a4fb7a9e-0d59-4f93-a464-a9e0ca867c7c"),
+                            ChangeDate = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2831),
                             Note = "Order placed",
                             Status = "Ordered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("19dc3593-1bc2-4c2e-9e49-11f46bcd55e0"),
-                            BillID = new Guid("a7f28647-512e-4273-a96a-9722fb161072"),
-                            ChangeDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3124),
+                            BillStatusHistoryID = new Guid("0c8b7c6c-d1da-4602-bffd-f052d384313d"),
+                            BillID = new Guid("a4fb7a9e-0d59-4f93-a464-a9e0ca867c7c"),
+                            ChangeDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2832),
                             Note = "Order shipped",
                             Status = "Shipped"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("dafd196d-aef1-4aaa-9a29-b4ace6274d9f"),
-                            BillID = new Guid("a7f28647-512e-4273-a96a-9722fb161072"),
-                            ChangeDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3125),
+                            BillStatusHistoryID = new Guid("0dd5b086-5dd1-403b-93fb-55c7b8a8d9f6"),
+                            BillID = new Guid("a4fb7a9e-0d59-4f93-a464-a9e0ca867c7c"),
+                            ChangeDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2834),
                             Note = "Order delivered",
                             Status = "Delivered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("59595e9f-d59d-493d-a860-567625454305"),
-                            BillID = new Guid("4df74ef5-e366-4e35-8ddf-d4886e4518d5"),
-                            ChangeDate = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3130),
+                            BillStatusHistoryID = new Guid("74d483e4-ad30-4dff-8ebb-d7bf958d936e"),
+                            BillID = new Guid("07a4ba96-a8f1-4f6d-a90a-67121811a352"),
+                            ChangeDate = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2836),
                             Note = "Order placed",
                             Status = "Ordered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("b6322f3e-ada6-4dbc-b7d7-ac918674bdb1"),
-                            BillID = new Guid("4df74ef5-e366-4e35-8ddf-d4886e4518d5"),
-                            ChangeDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3131),
+                            BillStatusHistoryID = new Guid("478d8a02-dd1c-4bed-ad81-0954a04765a3"),
+                            BillID = new Guid("07a4ba96-a8f1-4f6d-a90a-67121811a352"),
+                            ChangeDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2838),
                             Note = "Order shipped",
                             Status = "Shipped"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("a68a8961-a2c0-417d-8bed-af3eb3f968da"),
-                            BillID = new Guid("4df74ef5-e366-4e35-8ddf-d4886e4518d5"),
-                            ChangeDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3133),
+                            BillStatusHistoryID = new Guid("5bf80213-2f98-4de1-b9a1-650f7b536ed2"),
+                            BillID = new Guid("07a4ba96-a8f1-4f6d-a90a-67121811a352"),
+                            ChangeDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2840),
                             Note = "Order delivered",
                             Status = "Delivered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("bb28baed-5e5e-4910-82f0-b5c52ec5bdf8"),
-                            BillID = new Guid("9b901a47-24a8-4a33-85ba-53553802fe79"),
-                            ChangeDate = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3134),
+                            BillStatusHistoryID = new Guid("266c4728-1506-48e6-b159-602c95fce2a3"),
+                            BillID = new Guid("d8a7681a-1420-49af-b2e7-6d3f69a2016d"),
+                            ChangeDate = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2841),
                             Note = "Order placed",
                             Status = "Ordered"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("f3555493-5bbe-4263-9d23-ba74fc715145"),
-                            BillID = new Guid("9b901a47-24a8-4a33-85ba-53553802fe79"),
-                            ChangeDate = new DateTime(2024, 5, 23, 8, 9, 20, 889, DateTimeKind.Utc).AddTicks(3136),
+                            BillStatusHistoryID = new Guid("720e6e21-f472-44e8-8abd-eeadbefbfc01"),
+                            BillID = new Guid("d8a7681a-1420-49af-b2e7-6d3f69a2016d"),
+                            ChangeDate = new DateTime(2024, 6, 5, 2, 12, 33, 23, DateTimeKind.Utc).AddTicks(2845),
                             Note = "Order shipped",
                             Status = "Shipped"
                         },
                         new
                         {
-                            BillStatusHistoryID = new Guid("8a58f66e-99a9-47d4-9df6-bfc3b45be3eb"),
-                            BillID = new Guid("9b901a47-24a8-4a33-85ba-53553802fe79"),
-                            ChangeDate = new DateTime(2024, 5, 23, 9, 9, 20, 889, DateTimeKind.Utc).AddTicks(3137),
+                            BillStatusHistoryID = new Guid("acc7b7c8-d6a3-474a-a03d-69d7efce7f06"),
+                            BillID = new Guid("d8a7681a-1420-49af-b2e7-6d3f69a2016d"),
+                            ChangeDate = new DateTime(2024, 6, 5, 3, 12, 33, 23, DateTimeKind.Utc).AddTicks(2847),
                             Note = "Order delivered",
                             Status = "Delivered"
                         });
@@ -587,11 +587,6 @@ namespace APP_DATA.Migrations
                     b.Property<Guid>("CustomerID")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
                     b.HasKey("CartID");
 
                     b.HasIndex("CustomerID")
@@ -602,33 +597,28 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            CartID = new Guid("2ee1fa59-c6b7-45b1-8f55-0b4ef770f05c"),
-                            CustomerID = new Guid("e57b1ee4-a901-410d-bdbe-2d6d146579f4"),
-                            Description = "Customer 1's Cart"
+                            CartID = new Guid("1dc964cf-d7cb-45cd-8cda-49c6c8cb3dc8"),
+                            CustomerID = new Guid("c9231368-2924-4024-a211-e0264e49485f")
                         },
                         new
                         {
-                            CartID = new Guid("92ab9bc5-a655-4df0-bc77-ec987998d36c"),
-                            CustomerID = new Guid("beb23968-4803-439f-a66c-16af00ca3a06"),
-                            Description = "Customer 2's Cart"
+                            CartID = new Guid("19a5f8e4-87aa-40d0-9dc3-2461ca8a0e0e"),
+                            CustomerID = new Guid("bef74dac-9337-444e-b4fc-ee76f35482ee")
                         },
                         new
                         {
-                            CartID = new Guid("995a1937-36e7-4f19-a6bf-4d186ab49264"),
-                            CustomerID = new Guid("7e95ffd5-df8a-4eed-8998-6c22a91caa48"),
-                            Description = "Customer 3's Cart"
+                            CartID = new Guid("124fa20b-01ad-49a9-bd10-ecfafedff1af"),
+                            CustomerID = new Guid("d0b88215-17b1-4e2a-9a8e-b44fea3c9ba2")
                         },
                         new
                         {
-                            CartID = new Guid("7847673c-13b0-48c9-aec7-9913427dd17b"),
-                            CustomerID = new Guid("2db21e69-cc89-45c5-8de5-2893ab10277f"),
-                            Description = "Customer 4's Cart"
+                            CartID = new Guid("ade85f8e-85cc-4508-b66f-0c5f46135a9e"),
+                            CustomerID = new Guid("91e73ad1-fcd9-4f66-aabe-cec2a794a217")
                         },
                         new
                         {
-                            CartID = new Guid("254407d4-96e8-4165-bae7-45f57c04afad"),
-                            CustomerID = new Guid("e0285d6e-78eb-4275-a67a-22515dcec565"),
-                            Description = "Customer 5's Cart"
+                            CartID = new Guid("5073baf0-3700-4449-a822-0e8a1274e295"),
+                            CustomerID = new Guid("f5a02a83-4204-4a63-b5d0-a4c6f917037c")
                         });
                 });
 
@@ -644,52 +634,52 @@ namespace APP_DATA.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("ShoesDetails_SizeID")
+                    b.Property<Guid>("ShoeDetailsID")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("ID");
 
                     b.HasIndex("CartID");
 
-                    b.HasIndex("ShoesDetails_SizeID");
+                    b.HasIndex("ShoeDetailsID");
 
                     b.ToTable("CartDetails");
 
                     b.HasData(
                         new
                         {
-                            ID = new Guid("7e973a68-9f37-4ea0-9b52-a0de58b7bbfb"),
-                            CartID = new Guid("2ee1fa59-c6b7-45b1-8f55-0b4ef770f05c"),
+                            ID = new Guid("fd695391-1bec-45f8-9568-70a9358488bd"),
+                            CartID = new Guid("1dc964cf-d7cb-45cd-8cda-49c6c8cb3dc8"),
                             Quantity = 1,
-                            ShoesDetails_SizeID = new Guid("c5c2ab74-60a6-4e1a-8401-6a9b06291deb")
+                            ShoeDetailsID = new Guid("e4289651-e7dd-4ca4-885d-ea4db2a76b17")
                         },
                         new
                         {
-                            ID = new Guid("ca32e7b6-a673-4140-83ea-704bb2e8ad80"),
-                            CartID = new Guid("92ab9bc5-a655-4df0-bc77-ec987998d36c"),
+                            ID = new Guid("39216fb8-7d44-487a-bf9f-f2733059245b"),
+                            CartID = new Guid("19a5f8e4-87aa-40d0-9dc3-2461ca8a0e0e"),
                             Quantity = 2,
-                            ShoesDetails_SizeID = new Guid("5a604a68-cac2-4e69-8754-b16d43f33a62")
+                            ShoeDetailsID = new Guid("410fc8bd-046e-4357-b81f-309d86d43292")
                         },
                         new
                         {
-                            ID = new Guid("71911d43-c621-4964-b1ba-11cc284d4e92"),
-                            CartID = new Guid("995a1937-36e7-4f19-a6bf-4d186ab49264"),
+                            ID = new Guid("3270499a-40ad-4850-ab76-7a4baf98a59a"),
+                            CartID = new Guid("124fa20b-01ad-49a9-bd10-ecfafedff1af"),
                             Quantity = 3,
-                            ShoesDetails_SizeID = new Guid("144fed91-8d53-4233-b6af-8f92899ec105")
+                            ShoeDetailsID = new Guid("45a2e68d-b11e-424a-96fa-c015542509c4")
                         },
                         new
                         {
-                            ID = new Guid("d6e0e42f-ea11-41de-9aed-38d43da73b19"),
-                            CartID = new Guid("7847673c-13b0-48c9-aec7-9913427dd17b"),
+                            ID = new Guid("3233b48c-720f-4223-81f7-1fbdb795dca8"),
+                            CartID = new Guid("ade85f8e-85cc-4508-b66f-0c5f46135a9e"),
                             Quantity = 4,
-                            ShoesDetails_SizeID = new Guid("955c1385-1f0a-48d4-94f2-c4cd5424a99d")
+                            ShoeDetailsID = new Guid("31836984-3951-4408-8662-ba8e45a7c580")
                         },
                         new
                         {
-                            ID = new Guid("d9075061-e63b-40b4-94fb-6bdda14429bc"),
-                            CartID = new Guid("254407d4-96e8-4165-bae7-45f57c04afad"),
+                            ID = new Guid("07068c88-ae2d-4157-88f0-cbc2c35980c9"),
+                            CartID = new Guid("5073baf0-3700-4449-a822-0e8a1274e295"),
                             Quantity = 5,
-                            ShoesDetails_SizeID = new Guid("ef78fc43-6f1c-40c5-b508-29fb41f2c7db")
+                            ShoeDetailsID = new Guid("06dd3e89-9c22-4e83-942c-e0f6530cb942")
                         });
                 });
 
@@ -724,41 +714,41 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            ColorID = new Guid("a79a7f7d-b00c-48d3-9215-30d7986ef1c9"),
+                            ColorID = new Guid("366dd4cf-b080-41f6-9d5e-375ed311f93e"),
                             ColorCode = "C1",
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3219),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2898),
                             Name = "Red",
                             Status = "Active"
                         },
                         new
                         {
-                            ColorID = new Guid("e295d080-0131-4c47-a90c-9ab2b87d1009"),
+                            ColorID = new Guid("b394d6d0-0558-47ac-a6af-eb5d98c2b594"),
                             ColorCode = "C2",
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3233),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2904),
                             Name = "Blue",
                             Status = "Active"
                         },
                         new
                         {
-                            ColorID = new Guid("e276c461-3f23-41af-aecd-0bb28e368934"),
+                            ColorID = new Guid("edd6d947-d7fc-41f6-a2ec-eec2f4c743bc"),
                             ColorCode = "C3",
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3234),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2906),
                             Name = "Green",
                             Status = "Active"
                         },
                         new
                         {
-                            ColorID = new Guid("99763dd5-235f-4fc4-ae5f-b56b3bf9e3e2"),
+                            ColorID = new Guid("bfc3354d-8945-4528-94d5-0870352dc9ac"),
                             ColorCode = "C4",
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3235),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2907),
                             Name = "Yellow",
                             Status = "Active"
                         },
                         new
                         {
-                            ColorID = new Guid("a7dbdfdd-4f60-4ec3-b608-366e7e054c3d"),
+                            ColorID = new Guid("96e9a776-f491-481f-85ee-c1e59517e3b1"),
                             ColorCode = "C5",
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3237),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2908),
                             Name = "Black",
                             Status = "Active"
                         });
@@ -814,8 +804,8 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            CustomerID = new Guid("e57b1ee4-a901-410d-bdbe-2d6d146579f4"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2639),
+                            CustomerID = new Guid("c9231368-2924-4024-a211-e0264e49485f"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2271),
                             Email = "customer1@example.com",
                             FullName = "Customer 1",
                             Password = "password",
@@ -826,8 +816,8 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            CustomerID = new Guid("beb23968-4803-439f-a66c-16af00ca3a06"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2645),
+                            CustomerID = new Guid("bef74dac-9337-444e-b4fc-ee76f35482ee"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2278),
                             Email = "customer2@example.com",
                             FullName = "Customer 2",
                             Password = "password",
@@ -838,8 +828,8 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            CustomerID = new Guid("7e95ffd5-df8a-4eed-8998-6c22a91caa48"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2646),
+                            CustomerID = new Guid("d0b88215-17b1-4e2a-9a8e-b44fea3c9ba2"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2294),
                             Email = "customer3@example.com",
                             FullName = "Customer 3",
                             Password = "password",
@@ -850,8 +840,8 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            CustomerID = new Guid("2db21e69-cc89-45c5-8de5-2893ab10277f"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2648),
+                            CustomerID = new Guid("91e73ad1-fcd9-4f66-aabe-cec2a794a217"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2296),
                             Email = "customer4@example.com",
                             FullName = "Customer 4",
                             Password = "password",
@@ -862,8 +852,8 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            CustomerID = new Guid("e0285d6e-78eb-4275-a67a-22515dcec565"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2650),
+                            CustomerID = new Guid("f5a02a83-4204-4a63-b5d0-a4c6f917037c"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2298),
                             Email = "customer5@example.com",
                             FullName = "Customer 5",
                             Password = "password",
@@ -940,75 +930,75 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            EmployeeID = new Guid("b1f6048c-8d34-4aaf-a30a-01afb06c1046"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2865),
+                            EmployeeID = new Guid("4a20b2c6-bcc3-4895-aaa6-e6b8722eef2a"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2533),
                             Email = "employee1@example.com",
                             FullName = "Employee 1",
                             IdentificationCode = "ID1",
                             Image = "img1.png",
                             Password = "password",
                             PhoneNumber = "1234567890",
-                            RoleID = new Guid("b337e26e-e213-41ce-8e0a-fc54da77eba2"),
+                            RoleID = new Guid("8454b86c-350e-4a64-80d2-1d29046edd74"),
                             Sex = "Male",
                             Status = "Active",
                             UserName = "employee1"
                         },
                         new
                         {
-                            EmployeeID = new Guid("e54f69ea-4917-479d-8054-c3bd13457b4c"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2870),
+                            EmployeeID = new Guid("2927eaba-ba0c-45b2-bc94-b9dbee3ffc3d"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2537),
                             Email = "employee2@example.com",
                             FullName = "Employee 2",
                             IdentificationCode = "ID2",
                             Image = "img2.png",
                             Password = "password",
                             PhoneNumber = "0987654321",
-                            RoleID = new Guid("4f21a905-a8ff-4d5a-9687-5bca6bf0c72f"),
+                            RoleID = new Guid("83656ebf-cb23-40f1-b799-07f5c5ff2cd6"),
                             Sex = "Female",
                             Status = "Active",
                             UserName = "employee2"
                         },
                         new
                         {
-                            EmployeeID = new Guid("cdb4cd64-5203-47f5-b435-da340b5d8988"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2872),
+                            EmployeeID = new Guid("ff0f6820-f98d-49e4-81b3-47dc433f4719"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2539),
                             Email = "employee3@example.com",
                             FullName = "Employee 3",
                             IdentificationCode = "ID3",
                             Image = "img3.png",
                             Password = "password",
                             PhoneNumber = "1231231234",
-                            RoleID = new Guid("f9771605-ed9c-4cb1-ab40-205df0a20e5f"),
+                            RoleID = new Guid("73c3b223-e3da-41fd-9fdd-c1ee936bd11c"),
                             Sex = "Male",
                             Status = "Active",
                             UserName = "employee3"
                         },
                         new
                         {
-                            EmployeeID = new Guid("b46cea3b-a766-4980-a82f-3c8dde26a234"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2874),
+                            EmployeeID = new Guid("b5d6a8d3-cd61-474b-ac2b-4d3ebce0c3f6"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2544),
                             Email = "employee4@example.com",
                             FullName = "Employee 4",
                             IdentificationCode = "ID4",
                             Image = "img4.png",
                             Password = "password",
                             PhoneNumber = "4321432143",
-                            RoleID = new Guid("e3f5908b-c34b-4f2f-830e-b4c85f6e180f"),
+                            RoleID = new Guid("b65ce917-48dc-4c0f-99c8-2173325e4875"),
                             Sex = "Female",
                             Status = "Active",
                             UserName = "employee4"
                         },
                         new
                         {
-                            EmployeeID = new Guid("b0880b58-0326-4410-9be3-b3430a9b0b4a"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2876),
+                            EmployeeID = new Guid("242f004a-6325-47a5-a199-c3ed7cfa1876"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2546),
                             Email = "employee5@example.com",
                             FullName = "Employee 5",
                             IdentificationCode = "ID5",
                             Image = "img5.png",
                             Password = "password",
                             PhoneNumber = "6789678967",
-                            RoleID = new Guid("83fc2d1b-5bad-42c0-9b82-27bdd606fbed"),
+                            RoleID = new Guid("c7f110d9-6100-4746-8e43-0cf6a0a585cd"),
                             Sex = "Male",
                             Status = "Active",
                             UserName = "employee5"
@@ -1066,8 +1056,8 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            ImageID = new Guid("e3b8ac43-dc98-4a46-a45b-4c46c8b1acb6"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3484),
+                            ImageID = new Guid("fcbd3ee1-7502-4dec-9582-959d690caef2"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2980),
                             ImageCode = "IMG1",
                             ImageUrl1 = "https://example.com/img1_1.jpg",
                             ImageUrl2 = "https://example.com/img1_2.jpg",
@@ -1078,8 +1068,8 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            ImageID = new Guid("218199f6-835e-4ac8-ab74-4331c8d1883f"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3494),
+                            ImageID = new Guid("873abab9-58e5-424a-ba7c-7d2fd36dd0aa"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3024),
                             ImageCode = "IMG2",
                             ImageUrl1 = "https://example.com/img2_1.jpg",
                             ImageUrl2 = "https://example.com/img2_2.jpg",
@@ -1090,8 +1080,8 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            ImageID = new Guid("a412e4c2-2888-47d7-954f-757c248f8fc1"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3495),
+                            ImageID = new Guid("d33ae07a-049a-4a2c-bd4e-aa1d475d1226"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3028),
                             ImageCode = "IMG3",
                             ImageUrl1 = "https://example.com/img3_1.jpg",
                             ImageUrl2 = "https://example.com/img3_2.jpg",
@@ -1102,8 +1092,8 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            ImageID = new Guid("fe904674-9712-43bc-98f6-87cd32e1a6a0"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3498),
+                            ImageID = new Guid("b8ec9c22-6562-466a-952c-c4f011a47301"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3029),
                             ImageCode = "IMG4",
                             ImageUrl1 = "https://example.com/img4_1.jpg",
                             ImageUrl2 = "https://example.com/img4_2.jpg",
@@ -1114,8 +1104,8 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            ImageID = new Guid("aebc501c-a0c2-475c-bd8b-ad8d9715fb61"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3500),
+                            ImageID = new Guid("deca544d-c83d-4983-9cf4-19101e3a6a90"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3031),
                             ImageCode = "IMG5",
                             ImageUrl1 = "https://example.com/img5_1.jpg",
                             ImageUrl2 = "https://example.com/img5_2.jpg",
@@ -1157,40 +1147,40 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            MaterialID = new Guid("064436ea-9e31-41d6-9459-64d39262beb2"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3345),
+                            MaterialID = new Guid("55cbdc6e-4f0a-49e3-91ee-e250cdf42e0b"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2928),
                             MaterialCode = "M1",
                             Name = "Leather",
                             Status = "Active"
                         },
                         new
                         {
-                            MaterialID = new Guid("c055fe2a-926a-44db-b581-2f8f2b5d84fb"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3349),
+                            MaterialID = new Guid("7d16bcc6-a568-4ed0-8cb1-e387c068ad18"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2931),
                             MaterialCode = "M2",
                             Name = "Suede",
                             Status = "Active"
                         },
                         new
                         {
-                            MaterialID = new Guid("af29784a-9aaa-4eea-b4de-6dfa0c011d59"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3350),
+                            MaterialID = new Guid("61177342-4b17-40b4-9380-4db50753888c"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2932),
                             MaterialCode = "M3",
                             Name = "Canvas",
                             Status = "Active"
                         },
                         new
                         {
-                            MaterialID = new Guid("86901f99-67c0-4017-93cd-012df6de81fd"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3358),
+                            MaterialID = new Guid("d4ae2c71-1141-4b77-bb2a-0b084ed103d8"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2934),
                             MaterialCode = "M4",
                             Name = "Synthetic",
                             Status = "Active"
                         },
                         new
                         {
-                            MaterialID = new Guid("c587a43a-b000-4314-a22c-37d74927f96a"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3359),
+                            MaterialID = new Guid("f74a4cd7-0df1-4e39-8bfd-11bfc045feed"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2937),
                             MaterialCode = "M5",
                             Name = "Rubber",
                             Status = "Active"
@@ -1228,40 +1218,40 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            ProductID = new Guid("b29652e2-df38-4d56-8024-3e8f5cb591fd"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3426),
+                            ProductID = new Guid("8df85c27-5d9e-4f22-a5ca-127973a88470"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2955),
                             Name = "Running Shoes",
                             ProductCode = "P1",
                             Status = "Active"
                         },
                         new
                         {
-                            ProductID = new Guid("ed99f993-00f4-450b-8664-b14f427343aa"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3435),
+                            ProductID = new Guid("43be6cc6-6906-438c-a7ef-5e8eaef18db5"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2958),
                             Name = "Sneakers",
                             ProductCode = "P2",
                             Status = "Active"
                         },
                         new
                         {
-                            ProductID = new Guid("a178a436-62c2-4bbe-a9a6-aca29bd78644"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3436),
+                            ProductID = new Guid("f7db9156-edd6-44da-8b0a-6c811bc423c3"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2960),
                             Name = "Boots",
                             ProductCode = "P3",
                             Status = "Active"
                         },
                         new
                         {
-                            ProductID = new Guid("2a134f4d-195a-4c22-901f-e0dc1d2ab55a"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3440),
+                            ProductID = new Guid("bef6e269-4f9d-4797-be82-3f3f180e6675"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2961),
                             Name = "Sandals",
                             ProductCode = "P4",
                             Status = "Active"
                         },
                         new
                         {
-                            ProductID = new Guid("9bb6db80-e759-4b19-aa2e-3c53d12c34b9"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3441),
+                            ProductID = new Guid("9df703c7-4ad9-4c54-ab8d-e1edf7de1265"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2962),
                             Name = "Formal Shoes",
                             ProductCode = "P5",
                             Status = "Active"
@@ -1294,36 +1284,36 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            PurchaseMethodID = new Guid("e9aeca0c-9123-4fd5-9f40-84916947dd57"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2983),
+                            PurchaseMethodID = new Guid("63ffbd99-6114-4456-8d09-30e8e7da5da9"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2611),
                             Name = "Credit Card",
                             Status = "Active"
                         },
                         new
                         {
-                            PurchaseMethodID = new Guid("9ebd0022-01d3-4c80-9563-ecb38251f56d"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2989),
+                            PurchaseMethodID = new Guid("d73a6430-cabd-467e-9823-9a5775d8cb90"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2617),
                             Name = "PayPal",
                             Status = "Active"
                         },
                         new
                         {
-                            PurchaseMethodID = new Guid("b3ea1118-ae19-4c05-8c4f-e3841f35691c"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2990),
+                            PurchaseMethodID = new Guid("4c287058-da8f-4b22-ab4f-ef9de9a65ba3"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2619),
                             Name = "Cash",
                             Status = "Active"
                         },
                         new
                         {
-                            PurchaseMethodID = new Guid("4ec57afa-f317-4aae-939f-82092b7f47b5"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2991),
+                            PurchaseMethodID = new Guid("ea6b6cf4-f70f-43eb-b16c-ee8af629a4e2"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2620),
                             Name = "Bank Transfer",
                             Status = "Active"
                         },
                         new
                         {
-                            PurchaseMethodID = new Guid("10451571-ce23-44aa-905a-e85f09dca9b9"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2993),
+                            PurchaseMethodID = new Guid("c535c31c-1667-4150-9101-d6ca1a7de1b2"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2621),
                             Name = "Cryptocurrency",
                             Status = "Active"
                         });
@@ -1355,36 +1345,36 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            RoleID = new Guid("b337e26e-e213-41ce-8e0a-fc54da77eba2"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2829),
+                            RoleID = new Guid("8454b86c-350e-4a64-80d2-1d29046edd74"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2504),
                             RoleCode = "R1",
                             RoleName = "Admin"
                         },
                         new
                         {
-                            RoleID = new Guid("4f21a905-a8ff-4d5a-9687-5bca6bf0c72f"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2833),
+                            RoleID = new Guid("83656ebf-cb23-40f1-b799-07f5c5ff2cd6"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2507),
                             RoleCode = "R2",
                             RoleName = "User"
                         },
                         new
                         {
-                            RoleID = new Guid("f9771605-ed9c-4cb1-ab40-205df0a20e5f"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2835),
+                            RoleID = new Guid("73c3b223-e3da-41fd-9fdd-c1ee936bd11c"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2509),
                             RoleCode = "R3",
                             RoleName = "Manager"
                         },
                         new
                         {
-                            RoleID = new Guid("e3f5908b-c34b-4f2f-830e-b4c85f6e180f"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2836),
+                            RoleID = new Guid("b65ce917-48dc-4c0f-99c8-2173325e4875"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2510),
                             RoleCode = "R4",
                             RoleName = "Support"
                         },
                         new
                         {
-                            RoleID = new Guid("83fc2d1b-5bad-42c0-9b82-27bdd606fbed"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2840),
+                            RoleID = new Guid("c7f110d9-6100-4746-8e43-0cf6a0a585cd"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2512),
                             RoleCode = "R5",
                             RoleName = "Guest"
                         });
@@ -1408,27 +1398,27 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            SexID = new Guid("43f89f17-19a1-4cd0-927e-3ba4a87a7947"),
+                            SexID = new Guid("eb5e5097-0e86-4fde-aee4-a44676ac0eac"),
                             SexName = "Male"
                         },
                         new
                         {
-                            SexID = new Guid("d86b3d83-b45c-41b5-9ca2-18b5794e94da"),
+                            SexID = new Guid("cdd94718-8334-4b0d-9389-1aeff7cb636e"),
                             SexName = "Female"
                         },
                         new
                         {
-                            SexID = new Guid("ec04c798-4084-459e-8860-4d7bbb41d968"),
+                            SexID = new Guid("0bd6c9d8-f71a-45c7-bfc6-5b9de912d455"),
                             SexName = "Unisex"
                         },
                         new
                         {
-                            SexID = new Guid("df6dcf7e-fc97-4713-98d5-b99ee4d1cbff"),
+                            SexID = new Guid("ee81a1ad-d4a7-4e16-bf27-203de5a36c04"),
                             SexName = "Kids"
                         },
                         new
                         {
-                            SexID = new Guid("80de469b-8706-4bf1-893a-0f2d29d34ee8"),
+                            SexID = new Guid("dba9292a-027a-4768-a8cc-ec3dba8a2730"),
                             SexName = "Others"
                         });
                 });
@@ -1450,9 +1440,6 @@ namespace APP_DATA.Migrations
                     b.Property<Guid>("ImageID")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<decimal>("ImportPrice")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<Guid>("MaterialID")
                         .HasColumnType("uniqueidentifier");
 
@@ -1470,7 +1457,7 @@ namespace APP_DATA.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<Guid>("ShoesDetails_SizeID")
+                    b.Property<Guid>("SizeID")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Status")
@@ -1493,6 +1480,8 @@ namespace APP_DATA.Migrations
 
                     b.HasIndex("SexID");
 
+                    b.HasIndex("SizeID");
+
                     b.HasIndex("StyleID");
 
                     b.ToTable("ShoesDetails");
@@ -1500,144 +1489,78 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            ShoesDetailsID = new Guid("952fcb48-fb07-4aa2-ad89-05c02cb6d009"),
-                            ColorID = new Guid("a79a7f7d-b00c-48d3-9215-30d7986ef1c9"),
+                            ShoesDetailsID = new Guid("e4289651-e7dd-4ca4-885d-ea4db2a76b17"),
+                            ColorID = new Guid("366dd4cf-b080-41f6-9d5e-375ed311f93e"),
                             Description = "Running Shoes",
-                            ImageID = new Guid("e3b8ac43-dc98-4a46-a45b-4c46c8b1acb6"),
-                            ImportPrice = 800m,
-                            MaterialID = new Guid("064436ea-9e31-41d6-9459-64d39262beb2"),
+                            ImageID = new Guid("fcbd3ee1-7502-4dec-9582-959d690caef2"),
+                            MaterialID = new Guid("55cbdc6e-4f0a-49e3-91ee-e250cdf42e0b"),
                             Price = 1000m,
-                            ProductID = new Guid("b29652e2-df38-4d56-8024-3e8f5cb591fd"),
-                            SexID = new Guid("43f89f17-19a1-4cd0-927e-3ba4a87a7947"),
+                            ProductID = new Guid("8df85c27-5d9e-4f22-a5ca-127973a88470"),
+                            SexID = new Guid("eb5e5097-0e86-4fde-aee4-a44676ac0eac"),
                             ShoesDetailsCode = "SD1",
-                            ShoesDetails_SizeID = new Guid("3ba54090-777d-47c7-b4a7-f4e657d7dd9f"),
+                            SizeID = new Guid("7fe21232-1a38-4538-b40e-67fa9d32679f"),
                             Status = "Active",
-                            StyleID = new Guid("1d8f9640-1937-4cee-a8cc-5f871517bfed")
+                            StyleID = new Guid("02c60d54-e63c-454b-89ab-29c850d663da")
                         },
                         new
                         {
-                            ShoesDetailsID = new Guid("61629585-34fa-4609-8f3d-d7f92ceccd96"),
-                            ColorID = new Guid("e295d080-0131-4c47-a90c-9ab2b87d1009"),
+                            ShoesDetailsID = new Guid("410fc8bd-046e-4357-b81f-309d86d43292"),
+                            ColorID = new Guid("b394d6d0-0558-47ac-a6af-eb5d98c2b594"),
                             Description = "Sneakers",
-                            ImageID = new Guid("218199f6-835e-4ac8-ab74-4331c8d1883f"),
-                            ImportPrice = 1600m,
-                            MaterialID = new Guid("c055fe2a-926a-44db-b581-2f8f2b5d84fb"),
+                            ImageID = new Guid("873abab9-58e5-424a-ba7c-7d2fd36dd0aa"),
+                            MaterialID = new Guid("7d16bcc6-a568-4ed0-8cb1-e387c068ad18"),
                             Price = 2000m,
-                            ProductID = new Guid("ed99f993-00f4-450b-8664-b14f427343aa"),
-                            SexID = new Guid("d86b3d83-b45c-41b5-9ca2-18b5794e94da"),
+                            ProductID = new Guid("43be6cc6-6906-438c-a7ef-5e8eaef18db5"),
+                            SexID = new Guid("cdd94718-8334-4b0d-9389-1aeff7cb636e"),
                             ShoesDetailsCode = "SD2",
-                            ShoesDetails_SizeID = new Guid("6d0e72bd-6a5d-494e-bc3a-d44a9fe6571d"),
+                            SizeID = new Guid("7fe21232-1a38-4538-b40e-67fa9d32679f"),
                             Status = "Active",
-                            StyleID = new Guid("fb127de1-371c-4051-b695-0463d785d4b4")
+                            StyleID = new Guid("8ab3d8aa-4aae-4084-8eda-876a03217485")
                         },
                         new
                         {
-                            ShoesDetailsID = new Guid("7c2ea359-11ab-4ff4-8c6f-66017b915dea"),
-                            ColorID = new Guid("e276c461-3f23-41af-aecd-0bb28e368934"),
+                            ShoesDetailsID = new Guid("45a2e68d-b11e-424a-96fa-c015542509c4"),
+                            ColorID = new Guid("edd6d947-d7fc-41f6-a2ec-eec2f4c743bc"),
                             Description = "Boots",
-                            ImageID = new Guid("a412e4c2-2888-47d7-954f-757c248f8fc1"),
-                            ImportPrice = 2400m,
-                            MaterialID = new Guid("af29784a-9aaa-4eea-b4de-6dfa0c011d59"),
+                            ImageID = new Guid("d33ae07a-049a-4a2c-bd4e-aa1d475d1226"),
+                            MaterialID = new Guid("61177342-4b17-40b4-9380-4db50753888c"),
                             Price = 3000m,
-                            ProductID = new Guid("a178a436-62c2-4bbe-a9a6-aca29bd78644"),
-                            SexID = new Guid("ec04c798-4084-459e-8860-4d7bbb41d968"),
+                            ProductID = new Guid("f7db9156-edd6-44da-8b0a-6c811bc423c3"),
+                            SexID = new Guid("0bd6c9d8-f71a-45c7-bfc6-5b9de912d455"),
                             ShoesDetailsCode = "SD3",
-                            ShoesDetails_SizeID = new Guid("d667e0b2-3bbc-43bb-8db4-613396bbf93d"),
+                            SizeID = new Guid("7fe21232-1a38-4538-b40e-67fa9d32679f"),
                             Status = "Active",
-                            StyleID = new Guid("8b6542d7-9102-40f0-a837-2340449c4561")
+                            StyleID = new Guid("90ea5bda-8368-42da-87be-341a43012742")
                         },
                         new
                         {
-                            ShoesDetailsID = new Guid("c2ccb2a5-1f66-4900-b05f-f0ca9e7334a1"),
-                            ColorID = new Guid("99763dd5-235f-4fc4-ae5f-b56b3bf9e3e2"),
+                            ShoesDetailsID = new Guid("31836984-3951-4408-8662-ba8e45a7c580"),
+                            ColorID = new Guid("bfc3354d-8945-4528-94d5-0870352dc9ac"),
                             Description = "Sandals",
-                            ImageID = new Guid("fe904674-9712-43bc-98f6-87cd32e1a6a0"),
-                            ImportPrice = 3200m,
-                            MaterialID = new Guid("86901f99-67c0-4017-93cd-012df6de81fd"),
+                            ImageID = new Guid("b8ec9c22-6562-466a-952c-c4f011a47301"),
+                            MaterialID = new Guid("d4ae2c71-1141-4b77-bb2a-0b084ed103d8"),
                             Price = 4000m,
-                            ProductID = new Guid("2a134f4d-195a-4c22-901f-e0dc1d2ab55a"),
-                            SexID = new Guid("df6dcf7e-fc97-4713-98d5-b99ee4d1cbff"),
+                            ProductID = new Guid("bef6e269-4f9d-4797-be82-3f3f180e6675"),
+                            SexID = new Guid("ee81a1ad-d4a7-4e16-bf27-203de5a36c04"),
                             ShoesDetailsCode = "SD4",
-                            ShoesDetails_SizeID = new Guid("ee66ef88-f4cf-462e-a8f7-0ed83133a167"),
+                            SizeID = new Guid("7fe21232-1a38-4538-b40e-67fa9d32679f"),
                             Status = "Active",
-                            StyleID = new Guid("78a3a78b-474b-4c23-9c7f-52a3cb65c274")
+                            StyleID = new Guid("21994e18-7740-45f3-88cb-c0be1d88365f")
                         },
                         new
                         {
-                            ShoesDetailsID = new Guid("2634ab46-ccf7-42fd-a846-6107c78428c3"),
-                            ColorID = new Guid("a7dbdfdd-4f60-4ec3-b608-366e7e054c3d"),
+                            ShoesDetailsID = new Guid("06dd3e89-9c22-4e83-942c-e0f6530cb942"),
+                            ColorID = new Guid("96e9a776-f491-481f-85ee-c1e59517e3b1"),
                             Description = "Formal Shoes",
-                            ImageID = new Guid("aebc501c-a0c2-475c-bd8b-ad8d9715fb61"),
-                            ImportPrice = 4000m,
-                            MaterialID = new Guid("c587a43a-b000-4314-a22c-37d74927f96a"),
+                            ImageID = new Guid("deca544d-c83d-4983-9cf4-19101e3a6a90"),
+                            MaterialID = new Guid("f74a4cd7-0df1-4e39-8bfd-11bfc045feed"),
                             Price = 5000m,
-                            ProductID = new Guid("9bb6db80-e759-4b19-aa2e-3c53d12c34b9"),
-                            SexID = new Guid("80de469b-8706-4bf1-893a-0f2d29d34ee8"),
+                            ProductID = new Guid("9df703c7-4ad9-4c54-ab8d-e1edf7de1265"),
+                            SexID = new Guid("dba9292a-027a-4768-a8cc-ec3dba8a2730"),
                             ShoesDetailsCode = "SD5",
-                            ShoesDetails_SizeID = new Guid("95c03d2f-dba4-4887-bcc6-d040fad5e7f7"),
+                            SizeID = new Guid("7fe21232-1a38-4538-b40e-67fa9d32679f"),
                             Status = "Active",
-                            StyleID = new Guid("0a368238-1881-4be3-847a-a7f1b247bdb6")
-                        });
-                });
-
-            modelBuilder.Entity("APP_DATA.Entity.ShoesDetails_Size", b =>
-                {
-                    b.Property<Guid>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.Property<Guid>("ShoesDetailsID")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("SizeID")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("ShoesDetailsID");
-
-                    b.HasIndex("SizeID");
-
-                    b.ToTable("ShoesDetails_Sizes");
-
-                    b.HasData(
-                        new
-                        {
-                            ID = new Guid("c5c2ab74-60a6-4e1a-8401-6a9b06291deb"),
-                            Quantity = 10,
-                            ShoesDetailsID = new Guid("952fcb48-fb07-4aa2-ad89-05c02cb6d009"),
-                            SizeID = new Guid("3ca0552f-87e3-4873-b7de-4dff6fbf0f98")
-                        },
-                        new
-                        {
-                            ID = new Guid("5a604a68-cac2-4e69-8754-b16d43f33a62"),
-                            Quantity = 20,
-                            ShoesDetailsID = new Guid("61629585-34fa-4609-8f3d-d7f92ceccd96"),
-                            SizeID = new Guid("391f05a6-9129-4896-ace5-fe223494b133")
-                        },
-                        new
-                        {
-                            ID = new Guid("144fed91-8d53-4233-b6af-8f92899ec105"),
-                            Quantity = 30,
-                            ShoesDetailsID = new Guid("7c2ea359-11ab-4ff4-8c6f-66017b915dea"),
-                            SizeID = new Guid("b984d187-6dd1-45cd-9973-3d0e6f7026a1")
-                        },
-                        new
-                        {
-                            ID = new Guid("955c1385-1f0a-48d4-94f2-c4cd5424a99d"),
-                            Quantity = 40,
-                            ShoesDetailsID = new Guid("c2ccb2a5-1f66-4900-b05f-f0ca9e7334a1"),
-                            SizeID = new Guid("7d532075-a527-40dc-b10d-ddd0bfc1ab63")
-                        },
-                        new
-                        {
-                            ID = new Guid("ef78fc43-6f1c-40c5-b508-29fb41f2c7db"),
-                            Quantity = 50,
-                            ShoesDetailsID = new Guid("2634ab46-ccf7-42fd-a846-6107c78428c3"),
-                            SizeID = new Guid("4e63eb70-2e11-4bfc-a831-e5548f8b8ad3")
+                            StyleID = new Guid("a9554b2b-1442-481a-931d-8497e668a5fc")
                         });
                 });
 
@@ -1672,40 +1595,40 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            SizeID = new Guid("3ca0552f-87e3-4873-b7de-4dff6fbf0f98"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3158),
+                            SizeID = new Guid("7fe21232-1a38-4538-b40e-67fa9d32679f"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2871),
                             Name = "Size 1",
                             SizeCode = "S1",
                             Status = "Active"
                         },
                         new
                         {
-                            SizeID = new Guid("391f05a6-9129-4896-ace5-fe223494b133"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3161),
+                            SizeID = new Guid("43ce3c11-3460-47c0-9d39-6eecc91df2d8"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2873),
                             Name = "Size 2",
                             SizeCode = "S2",
                             Status = "Active"
                         },
                         new
                         {
-                            SizeID = new Guid("b984d187-6dd1-45cd-9973-3d0e6f7026a1"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3165),
+                            SizeID = new Guid("8d9396ea-e324-468c-8285-f3c3456db3a9"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2875),
                             Name = "Size 3",
                             SizeCode = "S3",
                             Status = "Active"
                         },
                         new
                         {
-                            SizeID = new Guid("7d532075-a527-40dc-b10d-ddd0bfc1ab63"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3166),
+                            SizeID = new Guid("945d3a5d-2134-4795-830b-227d483d44a4"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2876),
                             Name = "Size 4",
                             SizeCode = "S4",
                             Status = "Active"
                         },
                         new
                         {
-                            SizeID = new Guid("4e63eb70-2e11-4bfc-a831-e5548f8b8ad3"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3167),
+                            SizeID = new Guid("a575432e-143a-41c0-9cf8-f2bca64b2c07"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2878),
                             Name = "Size 5",
                             SizeCode = "S5",
                             Status = "Active"
@@ -1743,40 +1666,40 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            StyleID = new Guid("1d8f9640-1937-4cee-a8cc-5f871517bfed"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3571),
+                            StyleID = new Guid("02c60d54-e63c-454b-89ab-29c850d663da"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3077),
                             Name = "Casual",
                             Status = "Active",
                             StyleCode = "ST1"
                         },
                         new
                         {
-                            StyleID = new Guid("fb127de1-371c-4051-b695-0463d785d4b4"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3576),
+                            StyleID = new Guid("8ab3d8aa-4aae-4084-8eda-876a03217485"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3080),
                             Name = "Sport",
                             Status = "Active",
                             StyleCode = "ST2"
                         },
                         new
                         {
-                            StyleID = new Guid("8b6542d7-9102-40f0-a837-2340449c4561"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3578),
+                            StyleID = new Guid("90ea5bda-8368-42da-87be-341a43012742"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3082),
                             Name = "Formal",
                             Status = "Active",
                             StyleCode = "ST3"
                         },
                         new
                         {
-                            StyleID = new Guid("78a3a78b-474b-4c23-9c7f-52a3cb65c274"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3579),
+                            StyleID = new Guid("21994e18-7740-45f3-88cb-c0be1d88365f"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3083),
                             Name = "Outdoor",
                             Status = "Active",
                             StyleCode = "ST4"
                         },
                         new
                         {
-                            StyleID = new Guid("0a368238-1881-4be3-847a-a7f1b247bdb6"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(3583),
+                            StyleID = new Guid("a9554b2b-1442-481a-931d-8497e668a5fc"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(3084),
                             Name = "Work",
                             Status = "Active",
                             StyleCode = "ST5"
@@ -1823,9 +1746,9 @@ namespace APP_DATA.Migrations
                     b.HasData(
                         new
                         {
-                            VoucherID = new Guid("6e012097-4f27-41cd-8778-8c1d835ca77a"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2895),
-                            ExpirationDate = new DateTime(2024, 6, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2895),
+                            VoucherID = new Guid("760f291c-18fc-43e7-8003-76017c0b7443"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2566),
+                            ExpirationDate = new DateTime(2024, 7, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2566),
                             MaxUsage = 10m,
                             RemainingUsage = 5m,
                             Status = true,
@@ -1835,9 +1758,9 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            VoucherID = new Guid("3a72329e-37ae-43aa-ab33-223b82131d4f"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2904),
-                            ExpirationDate = new DateTime(2024, 6, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2904),
+                            VoucherID = new Guid("a7fc6d1a-73a8-4ca7-8aef-700a7ae580c2"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2575),
+                            ExpirationDate = new DateTime(2024, 7, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2575),
                             MaxUsage = 10m,
                             RemainingUsage = 4m,
                             Status = true,
@@ -1847,9 +1770,9 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            VoucherID = new Guid("2fa517bd-0f4d-4315-8a60-d3a3f50f7c67"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2909),
-                            ExpirationDate = new DateTime(2024, 6, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2909),
+                            VoucherID = new Guid("ede269c5-9ec7-4fd8-b7ea-20ddd58a9c11"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2577),
+                            ExpirationDate = new DateTime(2024, 7, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2578),
                             MaxUsage = 10m,
                             RemainingUsage = 3m,
                             Status = true,
@@ -1859,9 +1782,9 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            VoucherID = new Guid("c9e42695-d9ab-466c-a23b-6ec49aa3f4fb"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2953),
-                            ExpirationDate = new DateTime(2024, 6, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2953),
+                            VoucherID = new Guid("0beb4994-ad46-4538-aeda-84e458728137"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2580),
+                            ExpirationDate = new DateTime(2024, 7, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2580),
                             MaxUsage = 10m,
                             RemainingUsage = 2m,
                             Status = true,
@@ -1871,9 +1794,9 @@ namespace APP_DATA.Migrations
                         },
                         new
                         {
-                            VoucherID = new Guid("c7feac47-13ae-47bb-a192-b04d147766a8"),
-                            DateCreated = new DateTime(2024, 5, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2956),
-                            ExpirationDate = new DateTime(2024, 6, 23, 7, 9, 20, 889, DateTimeKind.Utc).AddTicks(2956),
+                            VoucherID = new Guid("7c3cd40e-aca2-4606-b986-634c317ac3c2"),
+                            DateCreated = new DateTime(2024, 6, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2582),
+                            ExpirationDate = new DateTime(2024, 7, 5, 1, 12, 33, 23, DateTimeKind.Utc).AddTicks(2582),
                             MaxUsage = 10m,
                             RemainingUsage = 1m,
                             Status = true,
@@ -1970,15 +1893,15 @@ namespace APP_DATA.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("APP_DATA.Entity.ShoesDetails_Size", "ShoesDetails_Size")
+                    b.HasOne("APP_DATA.Entity.ShoesDetails", "ShoesDetails")
                         .WithMany("CartDetails")
-                        .HasForeignKey("ShoesDetails_SizeID")
+                        .HasForeignKey("ShoeDetailsID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Cart");
 
-                    b.Navigation("ShoesDetails_Size");
+                    b.Navigation("ShoesDetails");
                 });
 
             modelBuilder.Entity("APP_DATA.Entity.Employee", b =>
@@ -2024,6 +1947,12 @@ namespace APP_DATA.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("APP_DATA.Entity.Size", "Size")
+                        .WithMany("ShoesDetails")
+                        .HasForeignKey("SizeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("APP_DATA.Entity.Style", "Style")
                         .WithMany("ShoesDetails")
                         .HasForeignKey("StyleID")
@@ -2040,26 +1969,9 @@ namespace APP_DATA.Migrations
 
                     b.Navigation("Sex");
 
-                    b.Navigation("Style");
-                });
-
-            modelBuilder.Entity("APP_DATA.Entity.ShoesDetails_Size", b =>
-                {
-                    b.HasOne("APP_DATA.Entity.ShoesDetails", "ShoesDetails")
-                        .WithMany("ShoesDetails_Sizes")
-                        .HasForeignKey("ShoesDetailsID")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.HasOne("APP_DATA.Entity.Size", "Size")
-                        .WithMany("ShoesDetails_Sizes")
-                        .HasForeignKey("SizeID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ShoesDetails");
-
                     b.Navigation("Size");
+
+                    b.Navigation("Style");
                 });
 
             modelBuilder.Entity("APP_DATA.Entity.Bill", b =>
@@ -2126,17 +2038,12 @@ namespace APP_DATA.Migrations
 
             modelBuilder.Entity("APP_DATA.Entity.ShoesDetails", b =>
                 {
-                    b.Navigation("ShoesDetails_Sizes");
-                });
-
-            modelBuilder.Entity("APP_DATA.Entity.ShoesDetails_Size", b =>
-                {
                     b.Navigation("CartDetails");
                 });
 
             modelBuilder.Entity("APP_DATA.Entity.Size", b =>
                 {
-                    b.Navigation("ShoesDetails_Sizes");
+                    b.Navigation("ShoesDetails");
                 });
 
             modelBuilder.Entity("APP_DATA.Entity.Style", b =>

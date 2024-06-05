@@ -22,7 +22,6 @@ namespace APP_DATA.Context
 		public DbSet<Cart> Carts { get; set; }
 		public DbSet<CartDetails> CartDetails { get; set; }
 		public DbSet<ShoesDetails> ShoesDetails { get; set; }
-		public DbSet<ShoesDetails_Size> ShoesDetails_Sizes { get; set; }
 		public DbSet<Size> Sizes { get; set; }
 		public DbSet<Color> Colors { get; set; }
 		public DbSet<Style> Styles { get; set; }
@@ -45,7 +44,6 @@ namespace APP_DATA.Context
 			modelBuilder.ApplyConfiguration(new CartConfiguration());
 			modelBuilder.ApplyConfiguration(new CartDetailsConfiguration());
 			modelBuilder.ApplyConfiguration(new ShoesDetailsConfiguration());
-			modelBuilder.ApplyConfiguration(new ShoesDetails_SizeConfiguration());
 			modelBuilder.ApplyConfiguration(new SizeConfiguration());
 			modelBuilder.ApplyConfiguration(new ColorConfiguration());
 			modelBuilder.ApplyConfiguration(new StyleConfiguration());
@@ -57,7 +55,7 @@ namespace APP_DATA.Context
 			modelBuilder.ApplyConfiguration(new BillStatusHistoryConfiguration());
 			modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
 			modelBuilder.ApplyConfiguration(new RoleConfiguration());
-			//SeedData(modelBuilder);
+			SeedData(modelBuilder);
 		}
 		public static void SeedData(ModelBuilder modelBuilder)
 		{
@@ -249,44 +247,44 @@ namespace APP_DATA.Context
 
 			var shoesDetails = new List<ShoesDetails>
 		{
-			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD1", Price = 1000, ImportPrice = 800, Description = "Running Shoes", Status = "Active", ColorID = colors[0].ColorID, ProductID = products[0].ProductID, StyleID = styles[0].StyleID, SexID = sexes[0].SexID, MaterialID = materials[0].MaterialID, ImageID = images[0].ImageID, ShoesDetails_SizeID = Guid.NewGuid() },
-			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD2", Price = 2000, ImportPrice = 1600, Description = "Sneakers", Status = "Active", ColorID = colors[1].ColorID, ProductID = products[1].ProductID, StyleID = styles[1].StyleID, SexID = sexes[1].SexID, MaterialID = materials[1].MaterialID, ImageID = images[1].ImageID, ShoesDetails_SizeID = Guid.NewGuid() },
-			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD3", Price = 3000, ImportPrice = 2400, Description = "Boots", Status = "Active", ColorID = colors[2].ColorID, ProductID = products[2].ProductID, StyleID = styles[2].StyleID, SexID = sexes[2].SexID, MaterialID = materials[2].MaterialID, ImageID = images[2].ImageID, ShoesDetails_SizeID = Guid.NewGuid() },
-			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD4", Price = 4000, ImportPrice = 3200, Description = "Sandals", Status = "Active", ColorID = colors[3].ColorID, ProductID = products[3].ProductID, StyleID = styles[3].StyleID, SexID = sexes[3].SexID, MaterialID = materials[3].MaterialID, ImageID = images[3].ImageID, ShoesDetails_SizeID = Guid.NewGuid() },
-			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD5", Price = 5000, ImportPrice = 4000, Description = "Formal Shoes", Status = "Active", ColorID = colors[4].ColorID, ProductID = products[4].ProductID, StyleID = styles[4].StyleID, SexID = sexes[4].SexID, MaterialID = materials[4].MaterialID, ImageID = images[4].ImageID, ShoesDetails_SizeID = Guid.NewGuid() }
+			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD1", Price = 1000, Description = "Running Shoes", Status = "Active", ColorID = colors[0].ColorID, ProductID = products[0].ProductID, StyleID = styles[0].StyleID, SexID = sexes[0].SexID, MaterialID = materials[0].MaterialID, ImageID = images[0].ImageID, SizeID = sizes[0].SizeID },
+			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD2", Price = 2000, Description = "Sneakers", Status = "Active", ColorID = colors[1].ColorID, ProductID = products[1].ProductID, StyleID = styles[1].StyleID, SexID = sexes[1].SexID, MaterialID = materials[1].MaterialID, ImageID = images[1].ImageID, SizeID = sizes[0].SizeID },
+			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD3", Price = 3000, Description = "Boots", Status = "Active", ColorID = colors[2].ColorID, ProductID = products[2].ProductID, StyleID = styles[2].StyleID, SexID = sexes[2].SexID, MaterialID = materials[2].MaterialID, ImageID = images[2].ImageID, SizeID = sizes[0].SizeID},
+			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD4", Price = 4000, Description = "Sandals", Status = "Active", ColorID = colors[3].ColorID, ProductID = products[3].ProductID, StyleID = styles[3].StyleID, SexID = sexes[3].SexID, MaterialID = materials[3].MaterialID, ImageID = images[3].ImageID, SizeID = sizes[0].SizeID},
+			new ShoesDetails { ShoesDetailsID = Guid.NewGuid(), ShoesDetailsCode = "SD5", Price = 5000, Description = "Formal Shoes", Status = "Active", ColorID = colors[4].ColorID, ProductID = products[4].ProductID, StyleID = styles[4].StyleID, SexID = sexes[4].SexID, MaterialID = materials[4].MaterialID, ImageID = images[4].ImageID, SizeID = sizes[0].SizeID}
 		};
 
 			modelBuilder.Entity<ShoesDetails>().HasData(shoesDetails);
 
-			var shoesDetailsSizes = new List<ShoesDetails_Size>
-		{
-			new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[0].ShoesDetailsID, SizeID = sizes[0].SizeID, Quantity = 10 },
-			new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[1].ShoesDetailsID, SizeID = sizes[1].SizeID, Quantity = 20 },
-			new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[2].ShoesDetailsID, SizeID = sizes[2].SizeID, Quantity = 30 },
-			new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[3].ShoesDetailsID, SizeID = sizes[3].SizeID, Quantity = 40 },
-			new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[4].ShoesDetailsID, SizeID = sizes[4].SizeID, Quantity = 50 }
-		};
+		//	var shoesDetailsSizes = new List<ShoesDetails_Size>
+		//{
+		//	new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[0].ShoesDetailsID, SizeID = sizes[0].SizeID, Quantity = 10 },
+		//	new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[1].ShoesDetailsID, SizeID = sizes[1].SizeID, Quantity = 20 },
+		//	new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[2].ShoesDetailsID, SizeID = sizes[2].SizeID, Quantity = 30 },
+		//	new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[3].ShoesDetailsID, SizeID = sizes[3].SizeID, Quantity = 40 },
+		//	new ShoesDetails_Size { ID = Guid.NewGuid(), ShoesDetailsID = shoesDetails[4].ShoesDetailsID, SizeID = sizes[4].SizeID, Quantity = 50 }
+		//};
 
-			modelBuilder.Entity<ShoesDetails_Size>().HasData(shoesDetailsSizes);
+		//	modelBuilder.Entity<ShoesDetails_Size>().HasData(shoesDetailsSizes);
 
 			var carts = new List<Cart>
 		{
-			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[0].CustomerID, Description = "Customer 1's Cart" },
-			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[1].CustomerID, Description = "Customer 2's Cart" },
-			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[2].CustomerID, Description = "Customer 3's Cart" },
-			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[3].CustomerID, Description = "Customer 4's Cart" },
-			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[4].CustomerID, Description = "Customer 5's Cart" }
+			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[0].CustomerID},
+			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[1].CustomerID},
+			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[2].CustomerID},
+			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[3].CustomerID},
+			new Cart { CartID = Guid.NewGuid(), CustomerID = customers[4].CustomerID}
 		};
 
 			modelBuilder.Entity<Cart>().HasData(carts);
 
 			var cartDetails = new List<CartDetails>
 		{
-			new CartDetails { ID = Guid.NewGuid(), ShoesDetails_SizeID = shoesDetailsSizes[0].ID, Quantity = 1, CartID = carts[0].CartID },
-			new CartDetails { ID = Guid.NewGuid(), ShoesDetails_SizeID = shoesDetailsSizes[1].ID, Quantity = 2, CartID = carts[1].CartID },
-			new CartDetails { ID = Guid.NewGuid(), ShoesDetails_SizeID = shoesDetailsSizes[2].ID, Quantity = 3, CartID = carts[2].CartID },
-			new CartDetails { ID = Guid.NewGuid(), ShoesDetails_SizeID = shoesDetailsSizes[3].ID, Quantity = 4, CartID = carts[3].CartID },
-			new CartDetails { ID = Guid.NewGuid(), ShoesDetails_SizeID = shoesDetailsSizes[4].ID, Quantity = 5, CartID = carts[4].CartID }
+			new CartDetails { ID = Guid.NewGuid(), Quantity = 1, CartID = carts[0].CartID, ShoeDetailsID = shoesDetails[0].ShoesDetailsID },
+			new CartDetails { ID = Guid.NewGuid(), Quantity = 2, CartID = carts[1].CartID, ShoeDetailsID = shoesDetails[1].ShoesDetailsID },
+			new CartDetails { ID = Guid.NewGuid(), Quantity = 3, CartID = carts[2].CartID, ShoeDetailsID = shoesDetails[2].ShoesDetailsID },
+			new CartDetails { ID = Guid.NewGuid(), Quantity = 4, CartID = carts[3].CartID, ShoeDetailsID = shoesDetails[3].ShoesDetailsID },
+			new CartDetails { ID = Guid.NewGuid(), Quantity = 5, CartID = carts[4].CartID, ShoeDetailsID = shoesDetails[4].ShoesDetailsID }
 		};
 
 			modelBuilder.Entity<CartDetails>().HasData(cartDetails);

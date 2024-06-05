@@ -10,7 +10,6 @@ namespace APP_DATA.Entity
 	{
 		public Guid CartID { get; set; }
 		public Guid CustomerID { get; set; }
-		public string Description { get; set; }
 
 		public Customer Customer { get; set; }
 		public ICollection<CartDetails> CartDetails { get; set; }

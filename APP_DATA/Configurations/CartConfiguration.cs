@@ -14,15 +14,13 @@ namespace APP_DATA.EntityConfiguration
 		public void Configure(EntityTypeBuilder<Cart> builder)
 		{
 			builder.HasKey(c => c.CartID);
-			builder.Property(c => c.Description).HasMaxLength(500);
-
 			//builder.HasOne(c => c.Customer)
 			//	   .WithOne(cu => cu.Carts)
 			//	   .HasForeignKey(c => c.CustomerID);
-
 			builder.HasMany(c => c.CartDetails)
-				   .WithOne(cd => cd.Cart)
-				   .HasForeignKey(cd => cd.CartID);
+				   .WithOne(cartDetail => cartDetail.Cart)
+				   .HasForeignKey(cartDetails => cartDetails.CartID);
+			
 		}
 	}
 }

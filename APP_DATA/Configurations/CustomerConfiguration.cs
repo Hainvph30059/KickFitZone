@@ -30,6 +30,9 @@ namespace APP_DATA.EntityConfiguration
 				   .WithOne(a => a.Customer)
 				   .HasForeignKey(a => a.CustomerID);
 
+			builder.HasOne(c => c.Carts)
+				   .WithOne(cart => cart.Customer)
+				   .HasForeignKey<Cart>(cart => cart.CustomerID);
 			//builder.HasMany(c => c.Carts)
 			//	   .WithOne(ca => ca.Customer)
 			//	   .HasForeignKey(ca => ca.CustomerID);
